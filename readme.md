@@ -17,7 +17,7 @@
 **Índice**
 
   - [ ] **Criando o servidor**
-    - [ ] Iniciando a configuração do servidor
+    - [X] Iniciando a configuração do servidor
     - [ ] Criando o servidor
     - [ ] Criando rotas
     - [ ] Reiniciando servidor automaticamente com Nodemon
