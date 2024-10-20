@@ -18,7 +18,7 @@
 
   - [ ] **Criando o servidor**
     - [X] Iniciando a configuração do servidor
-    - [ ] Criando o servidor
+    - [X] Criando o servidor
     - [ ] Criando rotas
     - [ ] Reiniciando servidor automaticamente com Nodemon
 
@@ -49,6 +49,12 @@
     - [ ] Redirecionando URL com JavaScript
     - [ ] Ajustes finais
     - [ ] [**Desafio 3-3**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-03/blob/master/desafios/03-3-pagina-descricao-curso.md)
+
+<div style="">
+  <p>
+    <strong>Ferramentas:</strong> Node.js, NPM, Express, Nunjucks, JSON, Nodemon
+  </p>
+</div>
 
 ---
 
