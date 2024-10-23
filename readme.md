@@ -16,11 +16,11 @@
 
 **Índice**
 
-  - [ ] **Criando o servidor**
+  - [X] **Criando o servidor**
     - [X] Iniciando a configuração do servidor
     - [X] Criando o servidor
     - [X] Criando rotas
-    - [ ] Reiniciando servidor automaticamente com Nodemon
+    - [X] Reiniciando servidor automaticamente com Nodemon
 
   - [ ] **Template Engine**
     - [ ] Instalando e configurando o Nunjucks
