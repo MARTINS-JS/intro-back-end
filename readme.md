@@ -19,7 +19,7 @@
   - [ ] **Criando o servidor**
     - [X] Iniciando a configuração do servidor
     - [X] Criando o servidor
-    - [ ] Criando rotas
+    - [X] Criando rotas
     - [ ] Reiniciando servidor automaticamente com Nodemon
 
   - [ ] **Template Engine**
