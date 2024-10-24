@@ -23,7 +23,7 @@
     - [X] Reiniciando servidor automaticamente com Nodemon
 
   - [ ] **Template Engine**
-    - [ ] Instalando e configurando o Nunjucks
+    - [X] Instalando e configurando o Nunjucks
     - [ ] Trazendo o Front end do site para o servidor
     - [ ] Página dinâmica com Nunjucks
     - [ ] Configurando arquivos .njk
