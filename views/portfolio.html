@@ -1,104 +1,97 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="/styles.css">
-    <title>Martins</title>
-  </head>
-  <body>
-    <header>
-      <div class="links">
-        <a href="/">Sobre</a>
-        <a href="/portfolio">Aulas</a>
+{% extends 'layout.html' %}
+
+{% block head %}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <title>Portfolio - Martins</title>
+{% endblock %}
+
+{% block content %}
+  <div class="wrapper">
+    <h1>Aulas</h1>
+  </div>
+  <section class="cards">
+    <div class="card" id="GykTLqODQuU">
+      <div class="card_img">
+        <img alt="" src="https://img.youtube.com/vi/GykTLqODQuU/maxresdefault.jpg">
       </div>
-    </header>
-    <div class="wrapper">
-      <h1>Aulas</h1>
-    </div>
-    <section class="cards">
-      <div class="card" id="GykTLqODQuU">
-        <div class="card_img">
-          <img alt="" src="https://img.youtube.com/vi/GykTLqODQuU/maxresdefault.jpg">
-        </div>
-        <div class="card_content">
-          <h1>Formulário Animado com JS puro e CSS Animation</h1>
-        </div>
-        <div class="card_info">
-          <p>57min</p>
-          <p class="info_price">Grátis</p>
-        </div>
+      <div class="card_content">
+        <h1>Formulário Animado com JS puro e CSS Animation</h1>
       </div>
-      <div class="card" id="HN1UjzRSdBk">
-        <div class="card_img">
-          <img alt="" src="https://img.youtube.com/vi/HN1UjzRSdBk/maxresdefault.jpg">
-        </div>
-        <div class="card_content">
-          <h1>Desvendando o CSS Grid na prática</h1>
-        </div>
-        <div class="card_info">
-          <p>36min</p>
-          <p class="info_price">Grátis</p>
-        </div>
-      </div>
-      <div class="card" id="rAzHvYnQ8DY">
-        <div class="card_img">
-          <img alt="" src="https://img.youtube.com/vi/rAzHvYnQ8DY/maxresdefault.jpg">
-        </div>
-        <div class="card_content">
-          <h1>Array: Higher Order Functions</h1>
-        </div>
-        <div class="card_info">
-          <p>54min</p>
-          <p class="info_price">Grátis</p>
-        </div>
-      </div>
-      <div class="card" id="ghTrp1x_1As">
-        <div class="card_img">
-          <img alt="" src="https://img.youtube.com/vi/ghTrp1x_1As/maxresdefault.jpg">
-        </div>
-        <div class="card_content">
-          <h1>O que é API? REST e RESTful?</h1>
-        </div>
-        <div class="card_info">
-          <p>33min</p>
-          <p class="info_price">Grátis</p>
-        </div>
-      </div>
-      <div class="card" id="GSqR2i-Pq6o">
-        <div class="card_img">
-          <img alt="" src="https://img.youtube.com/vi/GSqR2i-Pq6o/maxresdefault.jpg">
-        </div>
-        <div class="card_content">
-          <h1>Desvendando a variável this no JavaScript</h1>
-        </div>
-        <div class="card_info">
-          <p>48min</p>
-          <p class="info_price">Grátis</p>
-        </div>
-      </div>
-      <div class="card" id="2alg7MQ6_sI">
-        <div class="card_img">
-          <img alt="" src="https://img.youtube.com/vi/2alg7MQ6_sI/maxresdefault.jpg">
-        </div>
-        <div class="card_content">
-          <h1>Como usar Git e Github na prática: Guia para iniciantes</h1>
-        </div>
-        <div class="card_info">
-          <p>33min</p>
-          <p class="info_price">Grátis</p>
-        </div>
-      </div>
-    </section>
-    <div class="modal-overlay">
-      <div class="modal">
-        <div class="close_modal">
-          <span class="material-icons">close</span>
-        </div>
-        <div class="modal_content">
-          <iframe src="" frameborder="0"></iframe>
-        </div>
+      <div class="card_info">
+        <p>57min</p>
+        <p class="info_price">Grátis</p>
       </div>
     </div>
-    <script src="scripts.js"></script>
-  </body>
-</html>
+    <div class="card" id="HN1UjzRSdBk">
+      <div class="card_img">
+        <img alt="" src="https://img.youtube.com/vi/HN1UjzRSdBk/maxresdefault.jpg">
+      </div>
+      <div class="card_content">
+        <h1>Desvendando o CSS Grid na prática</h1>
+      </div>
+      <div class="card_info">
+        <p>36min</p>
+        <p class="info_price">Grátis</p>
+      </div>
+    </div>
+    <div class="card" id="rAzHvYnQ8DY">
+      <div class="card_img">
+        <img alt="" src="https://img.youtube.com/vi/rAzHvYnQ8DY/maxresdefault.jpg">
+      </div>
+      <div class="card_content">
+        <h1>Array: Higher Order Functions</h1>
+      </div>
+      <div class="card_info">
+        <p>54min</p>
+        <p class="info_price">Grátis</p>
+      </div>
+    </div>
+    <div class="card" id="ghTrp1x_1As">
+      <div class="card_img">
+        <img alt="" src="https://img.youtube.com/vi/ghTrp1x_1As/maxresdefault.jpg">
+      </div>
+      <div class="card_content">
+        <h1>O que é API? REST e RESTful?</h1>
+      </div>
+      <div class="card_info">
+        <p>33min</p>
+        <p class="info_price">Grátis</p>
+      </div>
+    </div>
+    <div class="card" id="GSqR2i-Pq6o">
+      <div class="card_img">
+        <img alt="" src="https://img.youtube.com/vi/GSqR2i-Pq6o/maxresdefault.jpg">
+      </div>
+      <div class="card_content">
+        <h1>Desvendando a variável this no JavaScript</h1>
+      </div>
+      <div class="card_info">
+        <p>48min</p>
+        <p class="info_price">Grátis</p>
+      </div>
+    </div>
+    <div class="card" id="2alg7MQ6_sI">
+      <div class="card_img">
+        <img alt="" src="https://img.youtube.com/vi/2alg7MQ6_sI/maxresdefault.jpg">
+      </div>
+      <div class="card_content">
+        <h1>Como usar Git e Github na prática: Guia para iniciantes</h1>
+      </div>
+      <div class="card_info">
+        <p>33min</p>
+        <p class="info_price">Grátis</p>
+      </div>
+    </div>
+  </section>
+  <div class="modal-overlay">
+    <div class="modal">
+      <div class="close_modal">
+        <span class="material-icons">close</span>
+      </div>
+      <div class="modal_content">
+        <iframe src="" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+  <script src="/scripts.js"></script>
+{% endblock %}

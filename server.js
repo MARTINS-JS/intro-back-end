@@ -11,7 +11,7 @@ nunjucks.configure('views', {
 })
 
 server.get('/', function(request, response) {
-  return response.render('index')
+  return response.render('about')
 })
 
 server.get('/portfolio', function(request, response) {
