@@ -24,7 +24,7 @@
 
   - [ ] **Template Engine**
     - [X] Instalando e configurando o Nunjucks
-    - [ ] Trazendo o Front end do site para o servidor
+    - [X] Trazendo o Front end do site para o servidor
     - [ ] Página dinâmica com Nunjucks
     - [ ] Configurando arquivos .njk
     - [ ] [**Desafio 3-1**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-03/blob/master/desafios/03-1-primeiro-servidor.md)
