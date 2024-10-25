@@ -17,7 +17,7 @@ server.get('/', function(request, response) {
 })
 
 server.get('/portfolio', function(request, response) {
-  return response.render('portfolio')
+  return response.render('portfolio', { cards: database })
 })
 
 server.listen(5000, function() {

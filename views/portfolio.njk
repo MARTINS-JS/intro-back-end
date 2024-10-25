@@ -10,78 +10,20 @@
     <h1>Aulas</h1>
   </div>
   <section class="cards">
-    <div class="card" id="GykTLqODQuU">
-      <div class="card_img">
-        <img alt="" src="https://img.youtube.com/vi/GykTLqODQuU/maxresdefault.jpg">
+    {% for card in cards %}
+      <div class="card" id="{{ card.id }}">
+        <div class="card_img">
+          <img alt="{{ card.title }}" src="https://img.youtube.com/vi/{{ card.id }}/maxresdefault.jpg">
+        </div>
+        <div class="card_content">
+          <h1>{{ card.title }}</h1>
+        </div>
+        <div class="card_info">
+          <p>{{ card.duration }}</p>
+          <p class="info_price">{{ card.price }}</p>
+        </div>
       </div>
-      <div class="card_content">
-        <h1>Formulário Animado com JS puro e CSS Animation</h1>
-      </div>
-      <div class="card_info">
-        <p>57min</p>
-        <p class="info_price">Grátis</p>
-      </div>
-    </div>
-    <div class="card" id="HN1UjzRSdBk">
-      <div class="card_img">
-        <img alt="" src="https://img.youtube.com/vi/HN1UjzRSdBk/maxresdefault.jpg">
-      </div>
-      <div class="card_content">
-        <h1>Desvendando o CSS Grid na prática</h1>
-      </div>
-      <div class="card_info">
-        <p>36min</p>
-        <p class="info_price">Grátis</p>
-      </div>
-    </div>
-    <div class="card" id="rAzHvYnQ8DY">
-      <div class="card_img">
-        <img alt="" src="https://img.youtube.com/vi/rAzHvYnQ8DY/maxresdefault.jpg">
-      </div>
-      <div class="card_content">
-        <h1>Array: Higher Order Functions</h1>
-      </div>
-      <div class="card_info">
-        <p>54min</p>
-        <p class="info_price">Grátis</p>
-      </div>
-    </div>
-    <div class="card" id="ghTrp1x_1As">
-      <div class="card_img">
-        <img alt="" src="https://img.youtube.com/vi/ghTrp1x_1As/maxresdefault.jpg">
-      </div>
-      <div class="card_content">
-        <h1>O que é API? REST e RESTful?</h1>
-      </div>
-      <div class="card_info">
-        <p>33min</p>
-        <p class="info_price">Grátis</p>
-      </div>
-    </div>
-    <div class="card" id="GSqR2i-Pq6o">
-      <div class="card_img">
-        <img alt="" src="https://img.youtube.com/vi/GSqR2i-Pq6o/maxresdefault.jpg">
-      </div>
-      <div class="card_content">
-        <h1>Desvendando a variável this no JavaScript</h1>
-      </div>
-      <div class="card_info">
-        <p>48min</p>
-        <p class="info_price">Grátis</p>
-      </div>
-    </div>
-    <div class="card" id="2alg7MQ6_sI">
-      <div class="card_img">
-        <img alt="" src="https://img.youtube.com/vi/2alg7MQ6_sI/maxresdefault.jpg">
-      </div>
-      <div class="card_content">
-        <h1>Como usar Git e Github na prática: Guia para iniciantes</h1>
-      </div>
-      <div class="card_info">
-        <p>33min</p>
-        <p class="info_price">Grátis</p>
-      </div>
-    </div>
+    {% endfor %}
   </section>
   <div class="modal-overlay">
     <div class="modal">
