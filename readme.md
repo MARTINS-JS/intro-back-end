@@ -22,12 +22,12 @@
     - [X] Criando rotas
     - [X] Reiniciando servidor automaticamente com Nodemon
 
-  - [ ] **Template Engine**
+  - [X] **Template Engine**
     - [X] Instalando e configurando o Nunjucks
     - [X] Trazendo o Front end do site para o servidor
     - [X] Página dinâmica com Nunjucks
     - [X] Configurando arquivos .njk
-    - [ ] [**Desafio 3-1**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-03/blob/master/desafios/03-1-primeiro-servidor.md)
+    - [X] [**Desafio 3-1**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-03/blob/master/desafios/03-1-primeiro-servidor.md)
 
   - [ ] **Usando dados dinâmicos**
     - [ ] Exportando e importando JavaScript
