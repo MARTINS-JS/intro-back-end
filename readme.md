@@ -33,7 +33,7 @@
     - [X] Exportando e importando JavaScript
     - [X] Passando dados do Back para o Front
     - [X] Alinhando elementos com CSS Grid
-    - [ ] Atualizando página sobre
+    - [X] Atualizando página sobre
     - [ ] [**Desafio 3-2**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-03/blob/master/desafios/03-2-nunjucks-e-dados-dinamicos.md)
 
   - [ ] **Vídeos em destaque**
