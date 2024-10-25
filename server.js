@@ -1,6 +1,8 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
 
+const database = require('./data')
+
 const server = express()
 
 server.set('view engine', 'njk')
