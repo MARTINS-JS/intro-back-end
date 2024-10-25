@@ -30,7 +30,7 @@
     - [X] [**Desafio 3-1**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-03/blob/master/desafios/03-1-primeiro-servidor.md)
 
   - [ ] **Usando dados dinâmicos**
-    - [ ] Exportando e importando JavaScript
+    - [X] Exportando e importando JavaScript
     - [ ] Passando dados do Back para o Front
     - [ ] Alinhando elementos com CSS Grid
     - [ ] Atualizando página sobre
