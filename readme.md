@@ -29,12 +29,12 @@
     - [X] Configurando arquivos .njk
     - [X] [**Desafio 3-1**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-03/blob/master/desafios/03-1-primeiro-servidor.md)
 
-  - [ ] **Usando dados dinâmicos**
+  - [X] **Usando dados dinâmicos**
     - [X] Exportando e importando JavaScript
     - [X] Passando dados do Back para o Front
     - [X] Alinhando elementos com CSS Grid
     - [X] Atualizando página sobre
-    - [ ] [**Desafio 3-2**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-03/blob/master/desafios/03-2-nunjucks-e-dados-dinamicos.md)
+    - [X] [**Desafio 3-2**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-03/blob/master/desafios/03-2-nunjucks-e-dados-dinamicos.md)
 
   - [ ] **Vídeos em destaque**
     - [ ] Adicionando vídeos em destaque
