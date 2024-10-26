@@ -38,7 +38,7 @@
 
   - [ ] **Vídeos em destaque**
     - [X] Adicionando vídeos em destaque
-    - [ ] Estilizando a label destaque
+    - [X] Estilizando a label destaque
     - [ ] Classes CSS dinâmicas e noCache Nunjucks
 
   - [ ] **Página de vídeo único**
