@@ -42,7 +42,7 @@
     - [X] Classes CSS dinâmicas e noCache Nunjucks
 
   - [ ] **Página de vídeo único**
-    - [ ] Passando dados do Front para o Back com Query Strings
+    - [X] Passando dados do Front para o Back com Query Strings
     - [ ] Filtrando elementos do array de vídeos
     - [ ] Estruturando a página de vídeo único
     - [ ] Reconfigurando o iframe
