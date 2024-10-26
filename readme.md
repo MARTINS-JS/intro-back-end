@@ -37,7 +37,7 @@
     - [X] [**Desafio 3-2**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-03/blob/master/desafios/03-2-nunjucks-e-dados-dinamicos.md)
 
   - [ ] **Vídeos em destaque**
-    - [ ] Adicionando vídeos em destaque
+    - [X] Adicionando vídeos em destaque
     - [ ] Estilizando a label destaque
     - [ ] Classes CSS dinâmicas e noCache Nunjucks
 
