@@ -180,3 +180,8 @@ iframe {
   top: 5%;
   width: 100%;
 }
+
+.video {
+  margin: 0 auto;
+  max-width: 800px;
+}
