@@ -35,10 +35,20 @@ server.get('/portfolio', function(request, response) {
   return response.render('portfolio', { cards: database })
 })
 
-server.get('/videos', function(request, response) {
+server.get('/video', function(request, response) {
   const id = request.query.id
   
-  return response.send(id)
+  const video = database.find(function(video) {
+    if (video.id == id) {
+      return true
+    }
+  })
+
+  if (!video) {
+    return response.send('Video not found!')
+  }
+
+  return response.render('video', { video })
 })
 
 server.listen(5000, function() {
