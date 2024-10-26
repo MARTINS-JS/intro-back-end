@@ -92,7 +92,17 @@ header {
 
 .card {
   background: var(--color-purple);
+  cursor: pointer;
   display: grid;
+  position: relative;
+}
+
+.card--favorite {
+  align-items: center;
+  display: flex;
+  padding: 4px;
+  position: absolute;
+  right: 0;
 }
 
 .card--favorite .material-icons {
@@ -123,18 +133,18 @@ header {
   background: var(--color-purple);
   border-radius: 20px;
   filter: brightness(90%);
-  text-align: center;
   padding: 8px 20px;
+  text-align: center;
 }
 
 .modal-overlay {
   background: rgba(0, 0, 0, 0.7);
-  position: fixed;
   height: 100%;
+  opacity: 0;
+  position: fixed;
   top: 0;
   visibility: hidden;
   width: 100%;
-  opacity: 0;
 }
 
 .modal-overlay.active {
@@ -163,7 +173,7 @@ header {
 
 iframe {
   height: 90%;
-  top: 5%;
   position: absolute;
+  top: 5%;
   width: 100%;
 }
