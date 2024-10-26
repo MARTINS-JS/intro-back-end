@@ -3,6 +3,7 @@
 :root {
   --color-green: #50fa7b;
   --color-purple: #7159c1;
+  --color-yellow: #f7df1d;
 }
 
 * {
@@ -92,6 +93,10 @@ header {
 .card {
   background: var(--color-purple);
   display: grid;
+}
+
+.card--favorite .material-icons {
+  color: var(--color-yellow);
 }
 
 .card_img img {

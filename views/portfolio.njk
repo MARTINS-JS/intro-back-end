@@ -12,8 +12,13 @@
   <section class="cards">
     {% for card in cards %}
       <div class="card" id="{{ card.id }}">
+        {% if card.isFavorite %}
+          <div class="card--favorite">
+              <span class="material-icons">star</span>
+          </div>
+        {% endif %}
         <div class="card_img">
-          <img alt="{{ card.title }}" src="https://img.youtube.com/vi/{{ card.id }}/maxresdefault.jpg">
+          <img alt="{{ card.title }}" src="https://img.youtube.com/vi/{{ card.id }}/maxresdefault.jpg">          
         </div>
         <div class="card_content">
           <h1>{{ card.title }}</h1>
