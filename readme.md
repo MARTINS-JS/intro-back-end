@@ -44,7 +44,7 @@
   - [ ] **Página de vídeo único**
     - [X] Passando dados do Front para o Back com Query Strings
     - [X] Filtrando elementos do array de vídeos
-    - [ ] Estruturando a página de vídeo único
+    - [X] Estruturando a página de vídeo único
     - [ ] Reconfigurando o iframe
     - [ ] Redirecionando URL com JavaScript
     - [ ] Ajustes finais
