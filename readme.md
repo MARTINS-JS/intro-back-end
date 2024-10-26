@@ -36,10 +36,10 @@
     - [X] Atualizando página sobre
     - [X] [**Desafio 3-2**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-03/blob/master/desafios/03-2-nunjucks-e-dados-dinamicos.md)
 
-  - [ ] **Vídeos em destaque**
+  - [X] **Vídeos em destaque**
     - [X] Adicionando vídeos em destaque
     - [X] Estilizando a label destaque
-    - [ ] Classes CSS dinâmicas e noCache Nunjucks
+    - [X] Classes CSS dinâmicas e noCache Nunjucks
 
   - [ ] **Página de vídeo único**
     - [ ] Passando dados do Front para o Back com Query Strings
