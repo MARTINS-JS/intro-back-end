@@ -94,6 +94,9 @@ header {
   background: var(--color-purple);
   cursor: pointer;
   display: grid;
+}
+
+.has_favorite {
   position: relative;
 }
 

@@ -11,7 +11,7 @@
   </div>
   <section class="cards">
     {% for card in cards %}
-      <div class="card" id="{{ card.id }}">
+      <div class="card {{ "has_favorite" if card.isFavorite }}" id="{{ card.id }}">
         {% if card.isFavorite %}
           <div class="card--favorite">
               <span class="material-icons">star</span>

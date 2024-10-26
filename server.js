@@ -10,7 +10,8 @@ server.use(express.static('public'))
 
 nunjucks.configure('views', {
   express: server,
-  autoescape: false
+  autoescape: false,
+  noCache: true
 })
 
 server.get('/', function(request, response) {
