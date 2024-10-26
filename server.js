@@ -35,6 +35,12 @@ server.get('/portfolio', function(request, response) {
   return response.render('portfolio', { cards: database })
 })
 
+server.get('/videos', function(request, response) {
+  const id = request.query.id
+  
+  return response.send(id)
+})
+
 server.listen(5000, function() {
   console.log('server is running!')
 })
