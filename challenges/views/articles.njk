@@ -9,54 +9,20 @@
     <h1>Posts</h1>
   </div>
   <section class="cards">
-    <div class="card">
-      <div class="card_image">
-        <img alt="" src="https://blog.rocketseat.com.br/content/images/size/w2000/2022/02/python-linguagem-rocketseat-blog.png">
+    {% for card in cards %}
+      <div class="card">
+        <div class="card_image">
+          <img alt="Capa do artigo" src="https://blog.rocketseat.com.br/content/images/size/w2000/2022/02/{{ card.technology }}-linguagem-rocketseat-blog.png">
+        </div>
+        <div class="card_info">
+          <p>{{ card.title }}</p>
+        </div>
+        <div class="card_content">
+          <p>{{ card.author }}</p>
+          <p class="button" id="{{ card.id }}">Ler</p>
+        </div>
       </div>
-      <div class="card_info">
-        <p>Python: linguagem popular com berço na comédia inglesa</p>
-      </div>
-      <div class="card_content">
-        <p>Felipe Buzzi</p>
-        <p class="button" id="python-linguagem-popular-com-berco-na-comedia-inglesa/">Ler</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card_image">
-        <img src="https://blog.rocketseat.com.br/content/images/size/w1000/2022/02/elixir-linguagem-rocketseat-blog.png" alt="Python">
-      </div>
-      <div class="card_info">
-        <p>Elixir: por trás da linguagem de programação brasileira</p>
-      </div>
-      <div class="card_content">
-        <p>Felipe Buzzi</p>
-        <p class="button" id="elixir-por-tras-da-linguagem-de-programacao-brasileira/">Ler</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card_image">
-        <img src="https://blog.rocketseat.com.br/content/images/size/w1000/2022/02/typescript-linguagem-rocketseat-blog.png" alt="TypeScript">
-      </div>
-      <div class="card_info">
-        <p>TypeScript: por trás do superset de JavaScript</p>
-      </div>
-      <div class="card_content">
-        <p>Felipe Buzzi</p>
-        <p class="button" id="typescript-um-superset-de-javascript-que-adicionou-tipagem-e-novos-recursos-na-linguagem/">Ler</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card_image">
-        <img src="https://blog.rocketseat.com.br/content/images/size/w1000/2022/02/npm-linguagem-rocketseat-blog.png" alt="NPM">
-      </div>
-      <div class="card_info">
-        <p>npm: pacotes, pacotes e pacotes</p>
-      </div>
-      <div class="card_content">
-        <p>Felipe Buzzi</p>
-        <p class="button" id="npm-pacotes-pacotes-e-pacotes/">Ler</p>
-      </div>
-    </div>
+    {% endfor %}
   </section>
   <div class="modal-overlay">
     <div class="modal minimize">

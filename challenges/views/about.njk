@@ -3,24 +3,22 @@
 {% block content %}
   <div class="wrapper">
     <div class="img-container">
-      <img alt="logo" src="/rocketseat-symbol.svg">
+      <img alt="logo" src="{{ data.logo_url }}">
     </div>
-    <h1>Rocketseat</h1>
-    <p>A plataforma completa para você aprender programação do zero no seu ritmo, se tornar full stack e se especializar em diversas tecnologias sem sair de casa.</p>      
+    <h1>{{ data.name }}</h1>
+    <p>{{ data.role }}</p>      
   </div>
   <div class="wrapper">
     <h2>Tecnologias</h2>
     <ul>
-      <li>JavaScript</li>
-      <li>NodeJS</li>
-      <li>DevOps</li>
-      <li>ReactJS</li>
-      <li>React Native</li>
+      {% for technology in data.technologies %}
+        <li>{{ technology }}</li>
+      {% endfor %}
     </ul>
   </div>
   <div class="links">
-    <a target="_blank" href="https://www.facebook.com/rocketseat/">Facebook</a>
-    <a target="_blank" href="https://github.com/rocketseat">GitHub</a>
-    <a target="_blank" href="https://www.instagram.com/rocketseat">Instagram</a>
+    {% for link in data.links %}
+      <a target="_blank" href="{{ link.url }}">{{ link.name }}</a>
+    {% endfor %}
   </div>
 {% endblock %}
