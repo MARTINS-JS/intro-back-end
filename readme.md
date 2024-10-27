@@ -45,7 +45,7 @@
     - [X] Passando dados do Front para o Back com Query Strings
     - [X] Filtrando elementos do array de vídeos
     - [X] Estruturando a página de vídeo único
-    - [ ] Reconfigurando o iframe
+    - [X] Reconfigurando o iframe
     - [ ] Redirecionando URL com JavaScript
     - [ ] Ajustes finais
     - [ ] [**Desafio 3-3**](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-03/blob/master/desafios/03-3-pagina-descricao-curso.md)
