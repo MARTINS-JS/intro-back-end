@@ -140,40 +140,6 @@ header {
   text-align: center;
 }
 
-.modal-overlay {
-  background: rgba(0, 0, 0, 0.7);
-  height: 100%;
-  opacity: 0;
-  position: fixed;
-  top: 0;
-  visibility: hidden;
-  width: 100%;
-}
-
-.modal-overlay.active {
-  opacity: 1;
-  visibility: visible;
-}
-
-.modal {
-  background: #ffffff;
-  height: 90%;
-  margin: 5vh auto;
-  position: relative;
-  width: 90%;
-}
-
-.modal .close_modal {
-  position: absolute;
-  right: 8px;
-  top: 8px;
-}
-
-.close_modal .material-icons {
-  color: black;
-  cursor: pointer;
-}
-
 iframe {
   height: 90%;
   position: absolute;

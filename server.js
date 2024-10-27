@@ -39,9 +39,7 @@ server.get('/video', function(request, response) {
   const id = request.query.id
   
   const video = database.find(function(video) {
-    if (video.id == id) {
-      return true
-    }
+    return video.id == id
   })
 
   if (!video) {
