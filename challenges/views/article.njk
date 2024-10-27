@@ -1,0 +1,11 @@
+{% extends 'layout.njk'%}
+
+{% block head %}
+  <title>{{ article.title }}</title>
+{% endblock %}
+
+{% block content %}
+  <section class="article">
+    <iframe src="https://blog.rocketseat.com.br/{{ article.id }}" frameborder="0"></iframe>
+  </section>
+{% endblock %}

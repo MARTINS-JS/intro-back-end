@@ -14,7 +14,7 @@ nunjucks.configure('views', {
 
 server.get('/', function(request, response) {
   const pageDataAbout = {
-    logo_url: '/rocketseat-symbol.svg',
+    logo_url: '/assets/rocketseat-symbol.svg',
     name: 'Rocketseat',
     role: 'A plataforma completa para você aprender programação do zero no seu ritmo, se tornar full stack e se especializar em diversas tecnologias sem sair de casa.',
     technologies: [
@@ -47,8 +47,22 @@ server.get('/articles', function(request, response) {
   return response.render('articles', { cards: database })
 })
 
+server.get('/article/:id', function(request, response) {
+  const id = request.params.id
+
+  const article = database.find(function(article) {
+    return article.id === id
+  })
+
+  if (!article) {
+    return response.render('not-found')
+  }
+
+  return response.render('article', { article })
+})
+
 server.use(function(request, response) {
-  response.status(404).render("not-found");
+  response.status(404).render('not-found');
 });
 
 server.listen(5000)
