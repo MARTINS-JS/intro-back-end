@@ -10,22 +10,8 @@
     <h1>{{ video.title }}</h1>
   </div>
   <section class="video">
-    <div class="card {{ "has_favorite" if video.isFavorite }}" id="{{ video.id }}">
-      {% if video.isFavorite %}
-        <div class="card--favorite">
-            <span class="material-icons">star</span>
-        </div>
-      {% endif %}
-      <div class="card_img">
-        <img alt="{{ video.title }}" src="https://img.youtube.com/vi/{{ video.id }}/maxresdefault.jpg">          
-      </div>
-      <div class="card_content">
-        <h1>{{ video.title }}</h1>
-      </div>
-      <div class="card_info">
-        <p>{{ video.duration }}</p>
-        <p class="info_price">{{ video.price }}</p>
-      </div>
+    <div class="video_container" id="{{ video.id }}">
+      <iframe src="https://www.youtube.com/embed/{{ video.id }}" frameborder="0"></iframe>
     </div>
   </section>
 {% endblock %}

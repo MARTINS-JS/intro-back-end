@@ -185,3 +185,15 @@ iframe {
   margin: 0 auto;
   max-width: 800px;
 }
+
+.video_container {
+  padding-top: 66.2%;
+  position: relative;
+}
+
+.video_container iframe {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
