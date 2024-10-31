@@ -10,7 +10,7 @@
 
 <div style="">
   <p>
-    Estudando!
+    Nessa fase aprendi a criar um servidor e levar o website para o back-end com o uso do framework express e também tornar as páginas do site mais dinâmicas usando o nunjucks template.    
   </p>
 </div>
 
